@@ -41,9 +41,10 @@ app.get('/answer', function(req, res) {
 	}
 });
 
-app.listen(8080);
 function sendMessage(message) {
 	pusher.trigger('test_channel', 'my_event', {
 		"message": message
 	});
 }
+
+app.listen(80);
