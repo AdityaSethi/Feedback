@@ -1,0 +1,25 @@
+{
+  "name": "feedback",
+  "version": "0.0.0",
+  "description": "Feedback\r ========",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.8.5",
+    "pusher": "^1.0.1",
+    "socket.io": "^1.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdityaSethi/Feedback.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdityaSethi/Feedback/issues"
+  },
+  "homepage": "https://github.com/AdityaSethi/Feedback"
+}
